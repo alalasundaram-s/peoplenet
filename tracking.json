@@ -1,0 +1,86 @@
+{
+	"type": "object",
+	"id": "urn:jsonschema:com:peoplenet:event:common:domain:mid:oem:OemEventConvertedMidData",
+	"properties": {
+					  "dsn":6010075,
+						"eventHeader": {
+									"type": "object",
+									"id": "urn:jsonschema:com:peoplenet:event:common:domain:header:EventHeader",
+													"properties": {
+														"eventType": ""
+													}
+						              },
+						"eventId": "781",
+						"miscHeader": {
+									 "type": "object",
+									 "id": "urn:jsonschema:com:peoplenet:event:common:domain:mid:oem:OemMiscHeaderDataConvertedSimpleBlock",
+						  	 	 "properties": {
+													"altitude": "9811",
+													"gpsHorizontalAccuracy": 410},
+													"heading": 43,
+													"latitude": 42.129050,
+													"longitude": -71.104790,
+													"modemRSSI": -100,
+													"peakBusUtilization": 51,
+													"pmgStatus": {
+																"type": "object",
+																"id": "urn:jsonschema:com:peoplenet:packets:api:PmgStatus",
+																		"properties": {
+																								"gpsStatus": "passed",
+																								"overallStatus": "passed",
+																								"radioMode": "GSM",
+																								"radioStatus": "passed"
+								                     }
+							             },
+								"totalVehicleDistance": 9822,
+								"triggerTime": "",
+								"tripId": "23",
+								"vin": "3G5DB03E52S528087"
+			        }
+		     },
+		"oemKey": "",
+		"eventData": {
+					"type": "object",
+					"id": "urn:jsonschema:com:peoplenet:event:common:domain:mid:oem:OemPositionEventDataConvertedSimpleBlock",
+			    "properties": {
+							"eventType": "9091",
+							"samples": {
+									"type": "array",
+									"items": {
+											"type": "object",
+											"id": "urn:jsonschema:com:peoplenet:event:common:domain:mid:oem:OemPositionEventSampleDataConverted",
+													 "properties": {
+														"altitude": 879,
+														"heading": 89,
+														"ignition": 1,
+														"latitude": 42.467880,
+														"longitude": -71.014488,
+														"odometer": 786865,
+														"sampleTime": "03/19/2019 19:43:03",
+														"vehicleSpeed": 897
+													},
+						          "sampleCount": 6
+					        }
+				     },
+				"state": "released",
+				"unitFormat": "metric",
+				"vehicleData": {
+					"type": "object",
+					"id": "urn:jsonschema:com:peoplenet:event:common:domain:mid:oem:OemVehicleDataConvertedSimpleBlock",
+					  "properties": {
+						"fuelLevel": 89,
+						"totalDistance": 8669,
+						"totalEngineHours": 7533,
+						"totalEnginePtoHours": 6545 ,
+						"totalFuel": 654 ,
+						"totalIdleFuel": 342,
+						"totalIdleHours": 8766,
+						"totalPtoFuel": 655,
+						"totalRevolutions":876 ,
+						"totalTransPtoHours":656,
+						"vehicleSpeed": 8666
+					}
+				}
+			}
+	}
+}
