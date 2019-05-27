@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE pnet_loc_history_packet PUBLIC "-//PeopleNet//pnet_loc_history_packet"
+"http://oi.pfmlogin.com/dtd/pnet_loc_history_packet.dtd">
+<pnet_loc_history_packet>
+    <packet_id>1</packet_id>
+    <more_data/>
+    <loc_history>
+        <truck_number>1007334</truck_number>
+        <datetime>08/13/2008 17:30:00</datetime>
+        <speed>65</speed>
+        <heading>0</heading>
+        <gps_quality>0</gps_quality>
+        <latitude>44.8359645</latitude>
+        <longitude>-93.5993772</longitude>
+        <location>Minneapolis, MN and In Chaska, MN; Hazeltine Blvd</location>
+        <fix_type>0</fix_type>
+        <ignition>1</ignition>
+        <gps_odometer>0.00000</gps_odometer>
+        <gps_rolling_odometer>1097.4</gps_rolling_odometer>
+        <performx_odometer>unavailable</performx_odometer>
+        <performx_fuel>unavailable</performx_fuel>
+        <performx_speed> </performx_speed>
+        <performx_idle> </performx_idle>
+    </loc_history>
+    <loc_history>
+        <truck_number>1007334</truck_number>
+        <datetime>08/13/2008 17:35:12</datetime>
+        <speed>64</speed>
+        <heading>0</heading>
+        <gps_quality>3</gps_quality>
+        <latitude>44.8366459</latitude>
+        <longitude>-93.5993574</longitude>
+        <location>Minneapolis, MN and In Chaska, MN; Hazeltine Blvd</location>
+        <fix_type>2</fix_type>
+        <ignition>1</ignition>
+        <gps_odometer>0.06250</gps_odometer>
+        <gps_rolling_odometer>1097.5</gps_rolling_odometer>
+        <performx_odometer>unavailable</performx_odometer>
+        <performx_fuel>unavailable</performx_fuel>
+        <performx_speed> </performx_speed>
+        <performx_idle>        </performx_idle>
+    </loc_history>
+    <loc_history>
+        <truck_number>1007334</truck_number>
+        <datetime>08/13/2008 17:45:00</datetime>
+        <speed>62</speed>
+        <heading>4</heading>
+        <gps_quality>3</gps_quality>
+        <latitude>44.8358419</latitude>
+        <longitude>-93.5994652</longitude>
+        <location>Minneapolis, MN and In Chaska, MN; Hazeltine Blvd</location>
+        <fix_type>0</fix_type>
+        <ignition>1</ignition>
+        <gps_odometer>0.18750</gps_odometer>
+        <gps_rolling_odometer>1097.7</gps_rolling_odometer>
+        <performx_odometer>unavailable</performx_odometer>
+        <performx_fuel>unavailable</performx_fuel>
+        <performx_speed>        </performx_speed>
+        <performx_idle>        </performx_idle>
+    </loc_history>
+</pnet_loc_history_packet>
